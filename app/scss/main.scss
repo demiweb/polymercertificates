@@ -18939,7 +18939,7 @@ span.value2 {
 }
 
 .single-certificat {
-  width: 32%;
+  width: calc((100% / 3) - (60px / 3));
   background: #fff;
   display: flex;
   position: relative;
@@ -19182,4 +19182,9 @@ span.value2 {
   .certificates-list {
     padding: 30px 0;
   }
+
+  .all-certificates {
+    justify-content: flex-start;
+  }
+
 }
